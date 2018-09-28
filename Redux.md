@@ -19,3 +19,4 @@ Concrete examples:
 | ------------- |:-------------:|
 | list.push(0)  | list.concat([0]|
 | splice | slice | 
+
