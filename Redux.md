@@ -11,7 +11,8 @@ Takes the previous state and action being dispatched and returns the NEW STATE
 You Dispatch an Action
 
 - Components only know they have to dispatch an action. 
-- Use Pure Functions (do not modify items or have side effects)
+
+### Use Pure Functions (do not modify items or have side effects)
 Concrete examples: 
 
 | Dont           | Do           |
