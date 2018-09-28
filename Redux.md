@@ -15,9 +15,9 @@ You Dispatch an Action
 ### Use Pure Functions (do not modify items or have side effects)
 Concrete examples: 
 
-| Pre ES6 |          |           |      ES6 Spread Operator     |
-| Dont          |        Do .    |  Dont      |    Do     |  
+
+| (Pre ES6) Dont| Do (Pre ES6)   |(ES6 Spread Operator )Dont   |    Do     |  
 | ------------- |:--------------:|------------| ----------|
-| list.push(0)  | list.concat([0]|
-| splice        | slice          | 
+| list.push(0)  | list.concat([0]| ... | ... |
+| splice        | slice          | ...| ... ```test```|
 
