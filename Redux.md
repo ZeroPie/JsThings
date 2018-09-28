@@ -16,8 +16,9 @@ You Dispatch an Action
 Concrete examples: 
 
 
-| (Pre ES6) Dont| Do (Pre ES6)   |(ES6 Spread Operator )Dont   |    Do     |  
-| ------------- |:--------------:|------------| ----------|
-| ```list.push(0)```  | ```list.concat([0]```| ... | ... |
-| ```splice```        | ```slice```          | ...| ... ```test```|
+| Dont                | Do                   |       Dont          |    Do     |  
+| Pre E6              | Do                   | ES6 Spread Operator |    Do     |  
+| --------------------|:--------------------:|---------------------|-----------|
+| ```list.push(0)```  | ```list.concat([0]```| ...                 |       ... |
+| ```splice```        | ```slice```          | ...                 | ``test``` |
 
