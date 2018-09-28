@@ -14,10 +14,9 @@ Concrete examples:
 
 
 | Dont           | Do           |
-| ---------------:|:-------------:|
-| list.push(0)    list.concat([0])
-No Push instead Concat
-No SPlice instead Slide 
+| ------------- |:-------------:|
+| list.push(0)  | list.concat([0]|
+| splice | slice | 
 
 
 
