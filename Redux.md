@@ -18,7 +18,7 @@ Concrete examples:
 
 | Dont                | Do                   |       Dont          |    Do     |  
 | --------------------|:--------------------:|---------------------|-----------|
-| Pre E6              | Do                   | ES6 Spread Operator |    Do     |  
+| Pre E6              |                      | ES6 Spread Operator |           |  
 | ```list.push(0)```  | ```list.concat([0]```| ...                 |       ... |
 | ```splice```        | ```slice```          | ...                 | ``test``` |
 
