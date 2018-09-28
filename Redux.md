@@ -27,9 +27,9 @@ Concrete examples:
 ## Examples
 
 1) Replace single value in Array without mutating it
-  a) Take slice before index
-  b) Concat it with a single item array with a new value
-  c) Concat it with the rest of the original Array
+  -  Take slice before index
+  -  Concat it with a single item array with a new value
+  -  Concat it with the rest of the original Array
   
 
   ```
