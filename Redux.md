@@ -24,7 +24,7 @@ Concrete examples:
 
 
 
-##Examples
+## Examples
 
 1) Replace single value in Array without mutating it
   a) Take slice before index
