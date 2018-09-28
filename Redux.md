@@ -16,9 +16,9 @@ You Dispatch an Action
 Concrete examples: 
 
 
-| Dont                   | Do                   |      ES6(Spread Operator)       | 
+| Dont                   | Do                   |     Do (ES6)                    | 
 | ---------------------- |:--------------------:|---------------------------------|
-| Pre E6                 |                      |                                 |
+| Pre E6                 |                      |    ES6(Spread Operator)         |
 | ```list.push(0)```     | ```list.concat([0]```| ```[...list, 0]```              |
 | ```splice(index,1)```  | ```slice(0, index)```| ```[...list.slice(0, index)]``` |  
 
