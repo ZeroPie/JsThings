@@ -22,3 +22,19 @@ Concrete examples:
 | ```list.push(0)```     | ```list.concat([0]```| ```[...list, 0]```              |
 | ```splice(index,1)```  | ```slice(0, index)```| ```[...list.slice(0, index)]``` |  
 
+
+
+##Examples
+
+1) Replace single value in Array without mutating it
+  a) Take slice before index
+  b) Concat it with a single item array with a new value
+  c) Concat it with the rest of the original Array
+  
+
+  ```
+  slice(0, index)
+  .concat([list[index] +1])
+  .concat(list.slice(index +1))
+
+  ```
