@@ -22,6 +22,14 @@ Concrete examples:
 | ```list.push(0)```     | ```list.concat([0]```| ```[...list, 0]```              |
 | ```splice(index,1)```  | ```slice(0, index)```| ```[...list.slice(0, index)]``` |  
 
+### Avoid Object Mutations
+
+| Dont                   | Do                                  | 
+| ---------------------- |:--------------------:               |
+|                        |                                     | 
+| ```todo.completed =! todo.completed
+    return todo; ```                     | ```list.concat([0]```|
+
 
 
 ## Examples
