@@ -13,8 +13,6 @@ You Dispatch an Action
 - Components only know they have to dispatch an action. 
 
 ### Use Pure Functions (do not modify items or have side effects)
-Concrete examples: 
-
 
 | Dont                   | Do                   |     Do (ES6)                    | 
 | ---------------------- |:--------------------:|---------------------------------|
