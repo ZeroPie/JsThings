@@ -26,8 +26,8 @@ Concrete examples:
 
 | Dont                   | Do                                  | 
 | ---------------------- |:--------------------:               |
-|                        |                                     | 
-| <code> todo.completed =! todo.completed <br>return todo;<br> </code>   | ```return Object.assign({}, todo, {completed: !todo.completed })```|
+|                        |                                      | 
+| <pre> todo.completed =! todo.completed <br>return todo;<br> </pre>   | ```return Object.assign({}, todo, {completed: !todo.completed })```|
 
 
 
