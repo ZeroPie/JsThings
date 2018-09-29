@@ -27,8 +27,7 @@ Concrete examples:
 | Dont                   | Do                                  | 
 | ---------------------- |:--------------------:               |
 |                        |                                     | 
-| ```todo.completed =! todo.completed
-    return todo; ```                     | ```list.concat([0]```|
+| ```todo.completed =! todo.completed return todo; ```         | ```return Object.assign({}, todo, {completed: !todo.completed })```|
 
 
 
