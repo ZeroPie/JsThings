@@ -24,7 +24,7 @@ You Dispatch an Action
 
 | Dont                   | Do                                  |   ES7(Object Spread)        |
 | ---------------------- |:--------------------:               |   --------------------------|
-|<pre>todo.completed =! todo.completed<br>return todo;</pre>    |<pre style="text-align: left">return Object.assign({}, todo, { <br>completed:!todo.completed <br>})</pre>| <pre>return {...todo,<br> completed: !todo.completed }</pre> |
+|<pre>todo.completed =! todo.completed<br>return todo;</pre>    |<pre style="text-align: left">return Object.assign({}, todo, { <br>completed:!todo.completed <br>})</pre>| <pre>return {...todo,<br> completed: !todo.completed <br>};</pre> |
 
 
 
