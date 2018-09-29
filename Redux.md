@@ -26,7 +26,7 @@ Concrete examples:
 
 | Dont                   | Do                                  |   ES7(Object Spread)        |
 | ---------------------- |:--------------------:               |   --------------------------|
-|<pre>todo.completed =! todo.completed<br>return todo;</pre>    |<pre>return Object.assign({}, todo, { <br>completed:!todo.completed <br>})</pre>| <pre>...todo,<br> completed: !todo.completed </pre> |
+|<pre>todo.completed =! todo.completed<br>return todo;</pre>    |<pre style="text-align: right">return Object.assign({}, todo, { <br>completed:!todo.completed <br>})</pre>| <pre>...todo,<br> completed: !todo.completed </pre> |
 
 
 
