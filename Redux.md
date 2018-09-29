@@ -2,8 +2,8 @@
 ## Terms
 - State: Minimal Representation of Data in your App
 - Action: Minimal Representation of Change to that Data
-- Reducer (pure function): (previous state, action) => return new state
-Takes the previous state and action being dispatched and returns the NEW STATE
+- Reducer: Pure function that takes the previous state and an action and returns a new state
+
 
 ## Principles
 
