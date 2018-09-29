@@ -29,8 +29,8 @@ Concrete examples:
 1) Replace single value in Array without mutating it  
   ```
   
-  slice(0, index) //Take a slice before the index
-  .concat([list[index] +1]) // Concat it with a single item array with a new value
+  slice(0, index)               //Take a slice before the index
+  .concat([list[index] +1])     // Concat it with a single item array with a new value
   .concat(list.slice(index +1)) // Concat it with the rest of the original Array
 
   ```
