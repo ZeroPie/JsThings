@@ -26,15 +26,13 @@ Concrete examples:
 
 ## Examples
 
-1) Replace single value in Array without mutating it
-  - Take slice before index
-  - Concat it with a single item array with a new value
-  - Concat it with the rest of the original Array
-  
-
+1) Replace single value in Array without mutating it  
   ```
+  Take slice before index
   slice(0, index)
+  Concat it with a single item array with a new value
   .concat([list[index] +1])
+  Concat it with the rest of the original Array
   .concat(list.slice(index +1))
 
   ```
