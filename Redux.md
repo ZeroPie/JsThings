@@ -24,9 +24,9 @@ Concrete examples:
 
 ### Avoid Object Mutations
 
-| Dont                   | Do                                  | 
-| ---------------------- |:--------------------:               |
-|<pre>todo.completed =! todo.completed<br>return todo;</pre> |<pre>return Object.assign({}, todo, { <br>completed: !todo.completed <br>})<pre>|
+| Dont                   | Do                                  |   ES7(Object Spread)        |
+| ---------------------- |:--------------------:               |   --------------------------|
+|<pre>todo.completed =! todo.completed<br>return todo;</pre>    |<pre>return Object.assign({}, todo, { <br>completed:!todo.completed <br>})</pre>| <pre>...todo,<br> completed: !todo.completed </pre> |
 
 
 
