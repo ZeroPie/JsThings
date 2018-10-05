@@ -3,6 +3,8 @@ Just a Reference to look into
 
 ### Computed Property Names in Objects:
 
-const obj = {
-    [action.name]: action.payload
-};
+<pre> 
+    const obj = {
+        [action.name]: action.payload
+    };
+</pre>
