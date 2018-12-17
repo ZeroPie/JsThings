@@ -12,6 +12,7 @@ const obj = {
 
 
 DONT: Implicitly create a Global as a result of assigning to a variable that was never declared:
+
 After Compile at Runtime 
 <pre>
 function wat() {
