@@ -12,6 +12,7 @@ const obj = {
 
 
 DONT: Implicitly create a Global as a result of assigning to a variable that was never declared:
+Fix: dont do it or 'use strict' => reference Error is then thrown
 
 After Compile at Runtime 
 <pre>
