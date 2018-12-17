@@ -1,5 +1,5 @@
 # Javascript-Reference
-Just a Reference to look into
+Just a Reference to look into with the correct Terms that i keep forgetting 
 
 ### Computed Property Names in Objects:
 
@@ -19,4 +19,10 @@ After Compile at Runtime
 function wat() {
     lulz = 'imglobalnow lulz'
 }
+</pre>
+
+Shadowing
+
+<pre>
+
 </pre>
