@@ -25,4 +25,12 @@ Shadowing
 
 <pre>
 
+var wat = 'wat'
+
+function watify() {
+    console.log(wat) => undefined
+    var wat = 'this will be shadowed at compile time, r.i.p accessing this lexically at runtime (screw window.wat which only works because we are one level deep)'
+}
 </pre>
+
+
