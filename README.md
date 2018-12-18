@@ -8,7 +8,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 Formal Declaration
 ```
-var x = 'xxx'
+var x = 'xxx' identifier
 ```
 
 ### Interpretation Time / Execution
