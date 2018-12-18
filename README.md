@@ -22,7 +22,9 @@ function wat() {
 }
 ```
 Implicitly create a Global as a result of assigning to a variable that was never declared:
-Fix: dont do it or 'use strict' => reference Error is then thrown
+Fix: 
+1.Dont do it 
+1.'use strict' => reference Error is then thrown
 
 ### Shadowing ###
 
