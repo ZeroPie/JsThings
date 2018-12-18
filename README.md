@@ -9,7 +9,7 @@ const obj = {
 };
 </pre>
 
-
+### Implicit Global Variable Creation
 
 DONT: Implicitly create a Global as a result of assigning to a variable that was never declared:
 Fix: dont do it or 'use strict' => reference Error is then thrown
@@ -21,7 +21,7 @@ function wat() {
 }
 </pre>
 
-Shadowing
+### Shadowing ###
 
 <pre>
 
