@@ -8,7 +8,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 Formal Declaration
 ```
-var x = 'identifier'
+var functionDeclaration = 'identifier'
 
 function wat(formal declaration for a parameter)
 ```
