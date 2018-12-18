@@ -9,9 +9,16 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 ### Interpretation Time / Execution
 All Variable and Function Declarations have been compiled away
 
-1.
-1.
-
+```
+var omg = 'omg'
+wat() {
+-   var wat = 'wat'
+    dahell () {
+    }
+}
+wat()
+dahell()
+```
 
 
 ### Implicit Global Variable Creation (Dont do this)
