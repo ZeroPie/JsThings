@@ -51,6 +51,13 @@ Fix:
 1.  Dont do it (it's bad and slower to create a var at runtime)
 1. 'use strict' => reference Error is then thrown
 
+
+btw: Global Vars are not created for functions <3
+```
+wth() // reference error
+```
+
+
 ### Shadowing ###
 
 ```js
@@ -60,11 +67,6 @@ function watify() {
     console.log(wat) => undefined
     var wat = 'this will be shadowed at compile time, r.i.p accessing this lexically at runtime (screw window.wat which only works because we are one level deep)'
 }
-```
-
-Global Vars are not created for functions <3
-```
-wth() // reference error
 ```
 
 
