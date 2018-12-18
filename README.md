@@ -8,7 +8,9 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 Formal Declaration
 ```
-var x = 'xxx' identifier
+var x = 'identifier'
+
+function wat(formal declaration for a parameter)
 ```
 
 ### Interpretation Time / Execution
