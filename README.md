@@ -24,8 +24,8 @@ function wat() {
 Implicitly create a Global as a result of assigning to a variable that was never declared:
 
 Fix:
-1. Dont do it (it's bad and slower to create a var at runtime)
-1.'use strict' => reference Error is then thrown
+1.  Dont do it (it's bad and slower to create a var at runtime)
+1. 'use strict' => reference Error is then thrown
 
 ### Shadowing ###
 
