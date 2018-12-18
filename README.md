@@ -3,8 +3,8 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 
 ### Compile Time
--> Scope Managing
--> LeftSide | RightSide declaration
+1. Scope Managing
+1. LeftSide | RightSide declaration
 
 ### Computed Property Names in Objects:
 
