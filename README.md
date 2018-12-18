@@ -10,7 +10,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 All Variable and Function Declarations have been compiled away
 
 ```diff
-var omg = 'omg'
+-var omg = 'omg'
 wat() {
 -   var wat = 'wat'
     dahell () {
