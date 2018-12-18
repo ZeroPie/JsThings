@@ -4,15 +4,14 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 ### Compile Time
 1. Scope Managing
-1. LeftSide | RightSide declaration
+1. LeftSide(Target of Assignment) | RightSide (Source) declaration
 
-### Computed Property Names in Objects:
+### Compile Time
 
-```js
-const obj = {
-    [action.name]: action.payload
-};
-```
+1.
+1.
+
+
 
 ### Implicit Global Variable Creation
 
@@ -35,6 +34,19 @@ function watify() {
     console.log(wat) => undefined
     var wat = 'this will be shadowed at compile time, r.i.p accessing this lexically at runtime (screw window.wat which only works because we are one level deep)'
 }
+```
+
+
+
+
+Move this to a different File:
+
+### Computed Property Names in Objects:
+
+```js
+const obj = {
+    [action.name]: action.payload
+};
 ```
 
 
