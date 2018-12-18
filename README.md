@@ -6,7 +6,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 1. Scope Managing
 1. LeftSide(Target of Assignment) | RightSide (Source) declaration
 
-### Compile Time
+### Interpretation Time
 
 1.
 1.
