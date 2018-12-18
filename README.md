@@ -15,22 +15,21 @@ DONT: Implicitly create a Global as a result of assigning to a variable that was
 Fix: dont do it or 'use strict' => reference Error is then thrown
 
 After Compile at Runtime 
-<pre>
+```js
 function wat() {
     lulz = 'imglobalnow lulz'
 }
-</pre>
+```
 
 ### Shadowing ###
 
-<pre>
-
+```js
 var wat = 'wat'
 
 function watify() {
     console.log(wat) => undefined
     var wat = 'this will be shadowed at compile time, r.i.p accessing this lexically at runtime (screw window.wat which only works because we are one level deep)'
 }
-</pre>
+```
 
 
