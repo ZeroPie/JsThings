@@ -3,11 +3,11 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 ### Computed Property Names in Objects:
 
-<pre> 
+```js
 const obj = {
     [action.name]: action.payload
 };
-</pre>
+>
 
 ### Implicit Global Variable Creation
 
