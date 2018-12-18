@@ -13,6 +13,7 @@ All Variable and Function Declarations have been compiled away
 var omg = 'omg'
 wat() {
 -   var wat = 'wat'
++
     dahell () {
     }
 }
