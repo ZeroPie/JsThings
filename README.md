@@ -7,7 +7,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 const obj = {
     [action.name]: action.payload
 };
->
+```
 
 ### Implicit Global Variable Creation
 
