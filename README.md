@@ -13,10 +13,7 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 
 
 
-### Implicit Global Variable Creation
-
-DONT: Implicitly create a Global as a result of assigning to a variable that was never declared:
-Fix: dont do it or 'use strict' => reference Error is then thrown
+### Implicit Global Variable Creation (Dont do this)
 
 After Compile at Runtime 
 ```js
@@ -24,6 +21,8 @@ function wat() {
     lulz = 'imglobalnow lulz'
 }
 ```
+Implicitly create a Global as a result of assigning to a variable that was never declared:
+Fix: dont do it or 'use strict' => reference Error is then thrown
 
 ### Shadowing ###
 
