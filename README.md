@@ -6,15 +6,15 @@ Just a Reference to look into with the correct Terms that i keep forgetting
 1. Scope Managing
 1. LeftSide(Target of Assignment) | RightSide (Source) declaration
 
-```
+``` js
 function wat() {
     var wth = 'wth'
 }
 wat() // Right Hand Side Value (Source Declaration)
+```
 
 1. go resolve the wat expression and find out its value (in this case a function 
 2. go to the parnthesis - almost as if they were operators - () and execute 
-```
 
 
 Lexical Scope is fixed (at compile time)
