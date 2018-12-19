@@ -16,6 +16,15 @@ wat() // Right Hand Side Value (Source Declaration)
 2. go to the parnthesis - almost as if they were operators - () and execute 
 ```
 
+
+Lexical Scope is fixed (at compile time)
+
+```
+function y() {
+    var z = x;
+}
+this var is always reference 
+```
 Formal Declaration
 ```
 var functionDeclaration = 'identifier'
