@@ -93,7 +93,7 @@ function declaration() {}
 ### Anonymous Function Expression
 
 ```js
-    var clickHand = function {}
+var clickHand = function {}
 ```
 
 
