@@ -20,9 +20,9 @@ wat() // Right Hand Side Value (Source Declaration)
 Lexical Scope is fixed (at compile time)
 
 ```
-
 this var is always reference 
 ```
+
 Formal Declaration
 ```
 var functionDeclaration = 'identifier'
