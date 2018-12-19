@@ -20,9 +20,7 @@ wat() // Right Hand Side Value (Source Declaration)
 Lexical Scope is fixed (at compile time)
 
 ```
-function y() {
-    var z = x;
-}
+
 this var is always reference 
 ```
 Formal Declaration
@@ -81,6 +79,20 @@ function watify() {
 
 -----------
 
+### Function Declaration
+
+```js
+function declaration() {}
+```
+
+### Named Function Expression
+
+```js
+var named = function declaration () {}
+```
+
+
+
 Move this to a different File ES6 Reference:
 
 ### Computed Property Names in Objects:
@@ -90,5 +102,6 @@ const obj = {
     [action.name]: action.payload
 };
 ```
+
 
 
