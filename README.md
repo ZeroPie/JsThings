@@ -89,16 +89,9 @@ function declaration() {}
 
 ```js
 var named = function declaration () {
-    declaration()
+    declaration() // is now available within its own scope
 }
 ```
-
-
-```js
-
-```
-
-
 
 Move this to a different File ES6 Reference:
 
