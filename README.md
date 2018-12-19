@@ -101,6 +101,10 @@ var named = function declaration () {
     declaration() // is now available within its own scope
 }
 ```
+Always prefer Named Function Expressions over Anonymous Function Expressions
+1. Reliable and Handy function self-reference (identifier is read only)
+2. Debuggability: Uses name in stack trace
+3. Code Readability 
 
 Move this to a different File ES6 Reference:
 
