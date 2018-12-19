@@ -85,6 +85,15 @@ function watify() {
 function declaration() {}
 ```
 
+
+
+### Anonymous Function Expression
+
+```js
+    var clickHand = function {}
+```
+
+
 ### Named Function Expression
 
 ```js
