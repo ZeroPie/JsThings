@@ -14,7 +14,7 @@ wat() // Right Hand Side Value (Source Declaration)
 ```
 
 1. go resolve the wat expression and find out its value (in this case a function 
-2. go to the parnthesis - almost as if they were operators - () and execute 
+2. go to the parenthesis () - almost as if they were operators - and execute 
 
 
 Lexical Scope is fixed (at compile time)
