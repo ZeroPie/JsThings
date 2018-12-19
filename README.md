@@ -88,7 +88,14 @@ function declaration() {}
 ### Named Function Expression
 
 ```js
-var named = function declaration () {}
+var named = function declaration () {
+    declaration()
+}
+```
+
+
+```js
+
 ```
 
 
