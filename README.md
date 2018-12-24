@@ -109,15 +109,6 @@ Always prefer Named Function Expressions over Anonymous Function Expressions
 2. Debuggability: Uses name in stack trace
 3. Code Readability 
 
-Move this to a different File ES6 Reference:
-
-### Computed Property Names in Objects:
-
-```js
-const obj = {
-    [action.name]: action.payload
-};
-```
 
 
 
