@@ -14,9 +14,9 @@ state = {
   cool: true,
   destructured: 'destructured'
 }
-const { destructured } = this.state
+const { destructured, cool } = this.state
 
-`Element is ${ this.state.hot } and ${destructured}`
+`Element is ${ this.state.hot } and ${destructured} and ${cool}`
 ```
 
 ### Named and Optional Arguments 
