@@ -40,9 +40,15 @@ console.log(ten, problem, SOLUTION); //10, grill, chill
 const { wat = 'wat', active = false } = { wat:0 }
 ```
 
+### Destructuring and Default Values in Function Signatures
 ```
-const functionWithDefaults = ()
+const funWithDefault = ({ initialValue = 0, isActive = false } = {}) => {
+  console.log(`initialValue: ${initialValue} isActive: ${isActive}`)
+}
 
+funWithDefault({}) // => 0, false
+funWithDefault({initialValue: 1}) // => 1, false
+funWithDefault({initialValue: 1, isActive: true}) // => 1, true
 ```
 
 ### Destructuring Arrays:
