@@ -71,3 +71,17 @@ console.log(a,b) // => 1,2
   
   })
 ```
+
+### Rest And Spread
+
+## Tail and Head in Arrays
+
+```js
+const aTail = (head, ...tail) => tail;
+aTail(1, 2, 3); // [2, 3]
+```
+
+```js
+const shiftToLast = (head, ...tail) => [...tail, head];
+shiftToLast(1, 2, 3); // [2, 3, 1]
+```
