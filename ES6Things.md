@@ -7,7 +7,6 @@ const obj = {
 ```
 
 ## Destructuring
-
 ### Destructuring Objects
 ```js
 state = {
@@ -20,7 +19,7 @@ const { destructured, cool } = this.state
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
 
-Rename Properties
+###Rename Properties
 
 ```js
 const stuff = { x: 'x', y: 'y', z: 'z'}
@@ -65,12 +64,9 @@ const [a,b] = [1,2] // Position does matter
 console.log(a,b) // => 1,2 
 ```
 
+## Rest And Spread
 
-
-
-### Rest And Spread
-
-## Tail and Head in Arrays
+### Tail and Head in Arrays
 
 ```js
 const aTail = (head, ...tail) => tail;
