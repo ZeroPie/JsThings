@@ -19,7 +19,7 @@ const { destructured, cool } = this.state
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
 
-###Rename Properties
+### Rename Properties
 
 ```js
 const stuff = { x: 'x', y: 'y', z: 'z'}
