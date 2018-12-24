@@ -41,7 +41,7 @@ const { wat = 'wat', active = false } = { wat:0 }
 ```
 
 ### Destructuring and Default Values in Function Signatures
-```
+```js
 const funWithDefault = ({ initialValue = 0, isActive = false } = {}) => {
   console.log(`initialValue: ${initialValue} isActive: ${isActive}`)
 }
