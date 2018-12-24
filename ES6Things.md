@@ -22,7 +22,7 @@ const { destructured, cool } = this.state
 ## Destructuring Arrays:
 
 ```js
-const [a,b] = [ 1,2 ]
+const [a,b] = [1,2]
 console.log(a,b) // => 1,2
 ```
 
