@@ -28,9 +28,9 @@ console.log(ten, problem, SOLUTION); //10, grill, chill
 ```
 
 ### Assign Default Values
-
+```js
 const { wat = 'wat', active = false } = { wat = 0 }
-
+```
 
 ### Destructuring Arrays:
 ```js
