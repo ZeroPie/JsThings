@@ -1,4 +1,4 @@
-### Computed Property Names in Objects:
+## Computed Property Names in Objects:
 
 ```js
 const obj = {
@@ -6,9 +6,9 @@ const obj = {
 };
 ```
 
-### Destructuring
+## Destructuring
 
-## Destructuring Objects
+### Destructuring Objects
 ```js
 state = {
   hot: false,
@@ -19,8 +19,8 @@ const { destructured, cool } = this.state
 
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
-## Destructuring Arrays:
 
+### Destructuring Arrays:
 ```js
 const [a,b] = [1,2]
 console.log(a,b) // => 1,2
