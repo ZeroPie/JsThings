@@ -2,8 +2,8 @@
 Just a Reference to look into with the correct Terms that i keep forgetting 
 
 ### Terminology
-1. bject Literal ``const obj = {}``
-1. array Literal ``const arr = []``
+1. Object Literal ``const obj = {}``
+1. Array Literal ``const arr = []``
 
 
 
