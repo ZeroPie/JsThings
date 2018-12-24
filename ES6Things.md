@@ -16,7 +16,7 @@ state = {
 }
 const { destructured, cool } = this.state
 
-`Element is ${ this.state.hot } and ${destructured} and ${cool}`
+`Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
 
 ### Named and Optional Arguments 
