@@ -21,10 +21,10 @@ const { destructured, cool } = this.state
 ```
 
 Rename Properties
-```
-let {x: newSTUFF, girl: newGIRL, problem: newSolution} = {x: 10, girl: 'koreanGrill', problem: '?"$%"%"&'};
+```js
+let {x: newSTUFF, girl: newGirl, problem: newSolution} = {x: 10, girl: 'koreanGrill', problem: '?"$%"%"&'};
 
-console.log(newX,newY,newZ); //10, 20, 30
+console.log(newSTUFF, newGIRL, newSolution); //10, 20, 30
 ```
 
 ### Destructuring Arrays:
