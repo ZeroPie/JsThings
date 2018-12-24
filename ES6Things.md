@@ -19,14 +19,14 @@ const { destructured, cool } = this.state
 
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
-Position does not matter
+
 
 ### Destructuring Arrays:
 ```js
-const [a,b] = [1,2]
-console.log(a,b) // => 1,2
+const [a,b] = [1,2] // Position does matter
+console.log(a,b) // => 1,2 
 ```
-Position does matter
+
 
 ### Named and Optional Arguments 
 
