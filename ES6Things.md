@@ -21,6 +21,14 @@ const { destructured, cool } = this.state
 ```
 
 Rename Properties
+
+```js
+const stuff = { x: 'x', y: 'y', z: 'z'}
+const { x:anotherName } = stuff
+console.log(anotherName)
+```
+Better Name?
+
 ```js
 let {x: ten, girl: problem, solution: SOLUTION} = {x: 10, girl: 'grill', problem: 'chill'};
 
@@ -29,7 +37,12 @@ console.log(ten, problem, SOLUTION); //10, grill, chill
 
 ### Assign Default Values
 ```js
-const { wat = 'wat', active = false } = { wat = 0 }
+const { wat = 'wat', active = false } = { wat:0 }
+```
+
+```
+const functionWithDefaults = ()
+
 ```
 
 ### Destructuring Arrays:
