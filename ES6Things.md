@@ -8,6 +8,7 @@ const obj = {
 
 ### Destructuring
 
+## Destructuring Objects
 ```js
 state = {
   hot: false,
@@ -17,6 +18,12 @@ state = {
 const { destructured, cool } = this.state
 
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
+```
+## Destructuring Arrays:
+
+```js
+const [a,b] = [ 1,2 ]
+console.log(a,b) // => 1,2
 ```
 
 ### Named and Optional Arguments 
