@@ -1,6 +1,11 @@
 # Javascript-Reference
 Just a Reference to look into with the correct Terms that i keep forgetting 
 
+### Terminology
+object Literal ``const obj = {}``
+array Literal ``const arr = []``
+
+
 
 ### Compile Time
 1. Scope Managing
