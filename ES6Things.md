@@ -19,6 +19,7 @@ const { destructured, cool } = this.state
 
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
+Position does not matter here unlike with arrays:
 
 ### Destructuring Arrays:
 ```js
