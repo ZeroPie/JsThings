@@ -1,5 +1,3 @@
-Move this to a different File ES6 Reference:
-
 ### Computed Property Names in Objects:
 
 ```js
