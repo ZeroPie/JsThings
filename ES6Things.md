@@ -40,12 +40,14 @@ console.log(ten, problem, SOLUTION); //10, grill, chill
 const { wat = 'wat', active = false } = { wat:0 }
 ```
 
-### Destructuring and Default Values in Function Signatures
+## Destructuring and Default Values in Function Signatures
 
 ```js
 const illbeZeroIfYouDontGiveAParam = (n = 0) => n;
 // => 0
 ```
+
+### Named and Optional Arguments 
 
 ```js
 const funWithDefault = ({ initialValue = 0, isActive = false } = {}) => {
@@ -64,13 +66,7 @@ console.log(a,b) // => 1,2
 ```
 
 
-### Named and Optional Arguments 
 
-```js
-  const fun() => ({ 
-  
-  })
-```
 
 ### Rest And Spread
 
