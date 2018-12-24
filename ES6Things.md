@@ -20,6 +20,12 @@ const { destructured, cool } = this.state
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
 
+Rename Properties
+```
+let {x: newSTUFF, girl: newGIRL, problem: newSolution} = {x: 10, girl: 'koreanGrill', problem: '?"$%"%"&'};
+
+console.log(newX,newY,newZ); //10, 20, 30
+```
 
 ### Destructuring Arrays:
 ```js
