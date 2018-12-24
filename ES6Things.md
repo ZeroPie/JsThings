@@ -27,6 +27,11 @@ let {x: ten, girl: problem, solution: SOLUTION} = {x: 10, girl: 'grill', problem
 console.log(ten, problem, SOLUTION); //10, grill, chill
 ```
 
+### Assign Default Values
+
+const { wat = 'wat', active = false } = { wat = 0 }
+
+
 ### Destructuring Arrays:
 ```js
 const [a,b] = [1,2] // Position does matter
