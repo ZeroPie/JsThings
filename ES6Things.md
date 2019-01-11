@@ -108,7 +108,7 @@ var [
     ob.a = 1,
     ob.b,
     ob.c,
-    ...args
+    ...ob.args
     ] = f() || [] // in return is null we stil get an empty Array
 
 ```
