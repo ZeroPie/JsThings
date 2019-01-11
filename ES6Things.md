@@ -24,7 +24,7 @@ const { destructured, cool } = this.state
 ```js
     const { a, 
             b, 
-            c: { n }
+            c: { n } = {} // provide a default in case it doesnt exist :)
             } = obj
 ```
 
