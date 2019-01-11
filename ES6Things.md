@@ -19,6 +19,16 @@ const { destructured, cool } = this.state
 `Element is ${this.state.hot} and ${destructured} and ${cool}`
 ```
 
+### Nested Destructuring
+
+```
+    const { a, 
+            b, 
+            c: { n }
+            } = obj
+```
+
+
 ### Rename Properties
 
 ```js
