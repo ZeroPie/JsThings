@@ -72,7 +72,7 @@ console.log(a,b) // => 1,2
 const getTail = (head, ...tail) => tail;
 getTail(1, 2, 3); // [2, 3]
 
-const getHead...
+const getHead = ( ͡° ͜ʖ ͡°)
 
 ```
 
