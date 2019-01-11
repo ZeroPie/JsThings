@@ -65,7 +65,13 @@ const foo = () => ({ a:1, b:2, c:3 })
 
 const {a : first, b} = foo() || {};
 console.log(first) // 1
+```
 
+Alternative with Object Ref
+```js
+const foo = () => ({ a:1, b:2, c:3 })
+let retObj;
+const {a : first, b} = retObj = foo() || {};
 ```
 
 ### Destructuring Arrays:
