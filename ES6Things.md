@@ -99,5 +99,18 @@ var [
     ...args
     ] = f() || [] // in return is null we stil get an empty Array
 ```
+We can also destructure into object properties
+
+```js
+const f = () => [1,2,0,3]
+const ob = {}
+var [
+    ob.a = 1,
+    ob.b,
+    ob.c,
+    ...args
+    ] = f() || [] // in return is null we stil get an empty Array
+
+```
 
 
