@@ -77,3 +77,11 @@ aTail(1, 2, 3); // [2, 3]
 const shiftToLast = (head, ...tail) => [...tail, head];
 shiftToLast(1, 2, 3); // [2, 3, 1]
 ```
+
+
+```
+left side          |  right side
+assignment context |   
+...gather = ...spread
+
+```
