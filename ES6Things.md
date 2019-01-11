@@ -21,7 +21,7 @@ const { destructured, cool } = this.state
 
 ### Nested Destructuring
 
-```
+```js
     const { a, 
             b, 
             c: { n }
