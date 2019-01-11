@@ -78,6 +78,7 @@ const shiftToLast = (head, ...tail) => [...tail, head];
 shiftToLast(1, 2, 3); // [2, 3, 1]
 ```
 
+### Gather or Spread ?
 
 ```
 left side          |  right side
@@ -85,3 +86,18 @@ assignment context |
 ...gather = ...spread
 
 ```
+
+### Nice Pattern for Arrays
+
+```
+const f = () => [1,2,0,3]
+
+var [
+    a = 1,
+    b,
+    c,
+    ...args
+    ] = f() || [] // in return is null we stil get an empty Array
+```
+
+
