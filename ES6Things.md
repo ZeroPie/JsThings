@@ -69,7 +69,7 @@ console.log(a,b) // => 1,2
 ### Tail and Head in Arrays
 
 ```js
-const aTail = (head, ...tail) => tail;
+const getTail = (head, ...tail) => tail;
 aTail(1, 2, 3); // [2, 3]
 ```
 
