@@ -28,6 +28,14 @@ const { destructured, cool } = this.state
             } = obj
 ```
 
+```js
+    const { a, 
+            b, 
+            c: [ n ] = [] // provide a default in case it doesnt exist :)
+            } = obj
+
+```
+
 
 ### Rename Properties
 
