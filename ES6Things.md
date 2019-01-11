@@ -70,8 +70,12 @@ console.log(a,b) // => 1,2
 
 ```js
 const getTail = (head, ...tail) => tail;
-aTail(1, 2, 3); // [2, 3]
+getTail(1, 2, 3); // [2, 3]
+
+const getHead...
+
 ```
+
 
 ```js
 const shiftToLast = (head, ...tail) => [...tail, head];
