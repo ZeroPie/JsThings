@@ -82,7 +82,7 @@ shiftToLast(1, 2, 3); // [2, 3, 1]
 
 ```js
 left side          |  right side
-assignment context |   
+assignment context |  declaration context
 ...gather = ...spread
 
 ```
