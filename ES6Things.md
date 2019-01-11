@@ -58,6 +58,16 @@ funWithDefault({initialValue: 1}) // => 1, false
 funWithDefault({initialValue: 1, isActive: true}) // => 1, true
 ```
 
+### Nice Little Pattern 
+
+```js
+const foo = () => ({ a:1, b:2, c:3 })
+
+const {a : first, b} = foo() || {};
+console.log(first) // 1
+
+```
+
 ### Destructuring Arrays:
 ```js
 const [a,b] = [1,2] // Position does matter
