@@ -80,7 +80,7 @@ shiftToLast(1, 2, 3); // [2, 3, 1]
 
 ### Gather or Spread ?
 
-```
+```js
 left side          |  right side
 assignment context |   
 ...gather = ...spread
@@ -89,7 +89,7 @@ assignment context |
 
 ### Nice Pattern for Arrays
 
-```
+```js
 const f = () => [1,2,0,3]
 
 var [
