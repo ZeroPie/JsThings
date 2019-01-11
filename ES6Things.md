@@ -114,14 +114,9 @@ var [
 ```
 
 Examples:
-```
-const ar = [1,2,3]
 
-[a,b, ...a] = [0, ...a, 4]
-
-```
 Dump:
-```
+```js
 const ar = [1,2,3]
 let d;
 
