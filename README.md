@@ -117,6 +117,7 @@ Always prefer Named Function Expressions over Anonymous Function Expressions
 
 ### Lexical Scope
 
+Predictable 
 ```js
     
 function fx () {
@@ -132,8 +133,7 @@ fx ()
 
 
 ### Dynamic Scope
-
-Function resolves references to variables dynamically depending on where it is called
+Flexible: Function resolves references to variables dynamically depending on where it is called
 Theoretical Example:
 ```js
 function wat() {
