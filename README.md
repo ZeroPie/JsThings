@@ -120,11 +120,11 @@ Always prefer Named Function Expressions over Anonymous Function Expressions
 ```js
     
 function fx () {
-var lc = 'lc'
-function x () {
-    console.log(lc) // lexical, aka always bound to scope 
-}
-lc()
+    var lc = 'lc'
+    function x () {
+        console.log(lc) // lexical, aka always bound to scope 
+    }
+    lc()
 }
 fx ()
    
