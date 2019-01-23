@@ -163,4 +163,13 @@ let d;
 [ , , ...a] 
 ```
 
+## Let
 
+```
+function tralala () {
+    
+    { // scope
+        let id;
+    }
+}
+```
