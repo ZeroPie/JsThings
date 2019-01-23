@@ -115,36 +115,36 @@ Always prefer Named Function Expressions over Anonymous Function Expressions
 3. Code Readability 
 
 
-Lexical Scope
+### Lexical Scope
 
 ```js
     
- function fx () {
- var lc = 'lc'
-    function x () {
-        console.log(lc) // lexical, aka always bound to scope 
-    }
-    lc()
- }
- fx ()
+function fx () {
+var lc = 'lc'
+function x () {
+    console.log(lc) // lexical, aka always bound to scope 
+}
+lc()
+}
+fx ()
    
 ```
 
 
-Dynamic Scope
+### Dynamic Scope
 
 Function resolves references to variables dynamically depending on where it is called
 Theoretical Example:
 ```js
-    function wat() {
-        console.log(sc)
-    }
-    
-    function sc () {
-        var sc = 'ss'
-        foo();
-    }
-    
-    sc(); // ss
+function wat() {
+    console.log(sc)
+}
+
+function sc () {
+    var sc = 'ss'
+    foo();
+}
+
+sc(); // ss
     
 ```
