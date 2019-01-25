@@ -84,6 +84,13 @@ function watify() {
     but with more nesting it wouldnt)
 ```
 
+```js
+var wat = 'wat'
+function watify() {
+    console.log(wat) => undefined
+    var wat = 'shadowed"
+}
+```
 
 -----------
 
