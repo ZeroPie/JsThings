@@ -148,3 +148,15 @@ function sc () {
 sc(); // ss
     
 ```
+
+
+## Closure
+
+Ability of a Function to 'remember' its lexical scope, even when it is executed outside its lexical scope
+
+## Hoisting
+
+Not truly a thing, it's a way to think about the 2 pass compilation process in JS
+Vars and lexical scopes are parsed
+Values are then assigned
+Thats why we can declare a var after already haven given it a value and that stuff works
