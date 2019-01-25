@@ -76,20 +76,11 @@ wth() // reference error
 var wat = 'wat'
 function watify() {
     console.log(wat) => undefined
-    var wat = 'shadowed"
+    var wat = 'shadowed' // Wat will be shadowed at compile time, 
+    r.i.p accessing this lexically at runtime ( window.wat would
+    work if we are one level deep, but with more nesting it wouldnt)
 }
-// Wat will be shadowed at compile time, 
-    r.i.p accessing this lexically at runtime (screw window.wat, 
-    btw it only works because we are one level deep, 
-    but with more nesting it wouldnt)
-```
 
-```js
-var wat = 'wat'
-function watify() {
-    console.log(wat) => undefined
-    var wat = 'shadowed"
-}
 ```
 
 -----------
