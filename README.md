@@ -158,3 +158,14 @@ Not truly a thing, it's a way to think about the 2 pass compilation process in J
 Vars and lexical scopes are parsed
 Values are then assigned
 Thats why we can declare a var after already haven given it a value and that stuff works
+
+
+### New
+
+```
+var foot = new shoot();
+```
+1. A brand new Empty Object is created
+1. The newly created object is linked to another Object
+1. The newly created object is passed in as the this context to the function call
+1. Imply that it return this (itself)
