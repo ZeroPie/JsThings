@@ -169,3 +169,11 @@ var foot = new shoot();
 1. The newly created object is linked to another Object
 1. The newly created object is passed in as the this context to the function call
 1. Imply that it return this (itself)
+
+### Rules of order of precedence:
+Whats this going to point to
+
+1. new (yup, it overrides bind)
+2. call()/apply() (bind() uses apply()
+3. context object (o2.foo()) 
+4. default: global object (except strict mode)
