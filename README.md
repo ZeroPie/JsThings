@@ -160,7 +160,7 @@ Values are then assigned
 Thats why we can declare a var after already haven given it a value and that stuff works
 
 
-## New Keyword
+## New Keyword (constructor call)
 
 ```
 var foot = new shoot();
