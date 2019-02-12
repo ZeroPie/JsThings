@@ -177,3 +177,38 @@ Whats this going to point to
 2. call()/apply() (bind() uses apply()
 3. context object (o2.foo()) 
 4. default: global object (except strict mode)
+
+
+## Thunks
+
+
+```
+function getFile(file) {
+  var text, callback;
+  asyncRequest(file, function(response){
+    if (fn) fn(response);
+    else text = response;
+  })
+
+  return function(callback){
+    if (text) callback(text);
+    else fn = callback;
+  }
+}
+
+var thunk1 = getFile('file1')
+var thunk2 = getFile('file2')
+var thunk3 = getFile('file3')
+
+thunk1(function(text1) {
+  console.log(text1)
+  thunk2(function(text2){
+    console.log(text2)
+    thunk3(function(text3){
+      console.log(text3)
+      console.log("Complete")
+    })
+  })
+})
+
+```
