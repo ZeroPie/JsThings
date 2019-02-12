@@ -182,7 +182,7 @@ Whats this going to point to
 ## Thunks
 
 
-```
+```js
 function getFile(file) {
   var text, callback;
   asyncRequest(file, function(response){
