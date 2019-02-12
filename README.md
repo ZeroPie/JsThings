@@ -183,7 +183,8 @@ Whats this going to point to
 
 A function with closure state that keeps track of some value and it gives you those back when you call it
 
-###Synchronous Thunk
+### Synchronous Thunk
+
 ```js
 function add(x, y) {
     return x + y
@@ -197,7 +198,7 @@ thunk(); // 25
 ```
 
 
-###Asynchronous Thunk
+### Asynchronous Thunk
 
 Fn doesnt need arguments except the callback to get the value out
 
