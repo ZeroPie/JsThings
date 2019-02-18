@@ -269,6 +269,13 @@ thunk1(function(text1) {
 - null (no identity aka null !== typeof null)
 6. symbol
 
+## Special Types
+- NaN
+- Infinity, -Infinity
+- null
+- undefined (void)
+- +0, -0
+
 
 ## toBoolean
 
