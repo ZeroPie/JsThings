@@ -258,6 +258,19 @@ thunk1(function(text1) {
 ```
 # Coercion
 
+##Primitive Types
+
+undefined
+string
+number
+boolean
+object
+symbol
+
+---
+function (subtype of object, it's a callable object)
+null (no identity aka null !== typeof null)
+
 ## toBoolean
 
 | Falsy       | Truthy        |  
