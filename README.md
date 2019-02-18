@@ -258,7 +258,7 @@ thunk1(function(text1) {
 ```
 # Coercion
 
-toBoolean
+## toBoolean
 
 | Falsy       | Truthy        |  
 | ----------- | ------------- |
@@ -270,7 +270,7 @@ toBoolean
 | undefined   |function(){...}|
 
 
-toNumber 
+## toNumber 
 
 | Value       | Result      |
 | ----------- | ----------- |
