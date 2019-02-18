@@ -256,3 +256,14 @@ thunk1(function(text1) {
 })
 
 ```
+# Coercion
+
+
+toNumber 
+
+| Value       | Result      |
+| ----------- | ----------- |
+| false       |   0         |
+| true        |   1         |
+| null        |   0         |
+| undefined   |   NaN       |
