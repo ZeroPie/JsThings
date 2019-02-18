@@ -260,16 +260,16 @@ thunk1(function(text1) {
 
 ##Primitive Types
 
-undefined
-string
-number
-boolean
-object
-symbol
+1. undefined
+2. string
+3. number
+4. boolean
+5. object
+6. symbol
 
 ---
-function (subtype of object, it's a callable object)
-null (no identity aka null !== typeof null)
+a. function (subtype of object, it's a callable object)
+b. null (no identity aka null !== typeof null)
 
 ## toBoolean
 
