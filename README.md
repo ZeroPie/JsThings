@@ -268,8 +268,8 @@ thunk1(function(text1) {
 6. symbol
 
 ---
-a. function (subtype of object, it's a callable object)
-b. null (no identity aka null !== typeof null)
+- function (subtype of object, it's a callable object)
+- null (no identity aka null !== typeof null)
 
 ## toBoolean
 
