@@ -265,11 +265,10 @@ thunk1(function(text1) {
 3. number
 4. boolean
 5. object
-6. symbol
-
----
 - function (subtype of object, it's a callable object)
 - null (no identity aka null !== typeof null)
+6. symbol
+
 
 ## toBoolean
 
