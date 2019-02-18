@@ -282,7 +282,8 @@ var a = 'a' / 2
 
 a          // NaN
 typeof a  // "number"
-isNan('foo') // true WTF
+
+isNan('foo') // true WTF => tries to convert it to a number first and then checks if its a Number
 ```
 
 
