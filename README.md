@@ -258,14 +258,16 @@ thunk1(function(text1) {
 ```
 # Coercion
 
-toNumber 
+toBoolean
 
-| Value       | Result      |
-| ----------- | ----------- |
-| false       |   0         |
-| true        |   1         |
-| null        |   0         |
-| undefined   |   NaN       |
+| Falsy       | Truthy        |  
+| ----------- | ------------- |
+| ""          |   "foo"       |
+| -0, 0, +0   |   23          |
+| null        |   {a:1}       |
+| NaN         |   [1,3]       |
+| false       |   true        |
+| undefined   |function(){...}|
 
 
 toNumber 
