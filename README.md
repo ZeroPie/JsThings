@@ -276,6 +276,15 @@ thunk1(function(text1) {
 - undefined (void)
 - +0, -0
 
+##Nan
+``` js
+var a = 'a' / 2
+
+a          // NaN
+typeof a  // "number"
+isNan('foo') // true WTF
+```
+
 
 ## toBoolean
 
