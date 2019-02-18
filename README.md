@@ -286,17 +286,17 @@ typeof a  // "number"
 isNan('foo') // true WTF => tries to convert it to a number first and then checks if its a Number
 ```
 
-## Natives
+## Native(s) (Functions)
 
-- String
-- Number
-- Boolean
-- Function
-- Object
-- Array
-- RegExp
-- Date
-- Error
+- String()
+- Number()
+- Boolean()
+- Function()
+- Object()
+- Array()
+- RegExp()
+- Date()
+- Error()
 
 ## toBoolean
 
