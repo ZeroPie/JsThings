@@ -276,7 +276,7 @@ thunk1(function(text1) {
 - undefined (void)
 - +0, -0
 
-##Nan
+## Nan
 ``` js
 var a = 'a' / 2
 
