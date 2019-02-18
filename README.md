@@ -258,7 +258,6 @@ thunk1(function(text1) {
 ```
 # Coercion
 
-
 toNumber 
 
 | Value       | Result      |
@@ -267,3 +266,21 @@ toNumber
 | true        |   1         |
 | null        |   0         |
 | undefined   |   NaN       |
+
+
+toNumber 
+
+| Value       | Result      |
+| ----------- | ----------- |
+| ""          |   0         | wtf
+| "0"         |   0         | 
+| "-0"        |   -0        |
+| " 009 "     |   9         |
+| "3.14159"   |   3.14159   |
+| "0 ."       |   0         |
+| ".0"        |   0         |
+| "."         |   NaN       |  wtf
+| false       |   0         |
+| true        |   1         |
+| null        |   0         |  wtf
+| undefined   |   NaN       |  wtf
