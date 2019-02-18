@@ -258,7 +258,7 @@ thunk1(function(text1) {
 ```
 # Coercion
 
-##Primitive Types
+## Primitive Types
 
 1. undefined
 2. string
