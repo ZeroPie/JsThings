@@ -314,6 +314,9 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 | [[[],[],[]],[]]  |   [,,,]       |
 | [,,,,]           |   ',,,' //trailing comma|
 
+|  {}              |  "[object Object]"   |
+|  {a:2}           |  "[object Object]"   |
+
 ## toBoolean
 
 | Falsy       | Truthy        |  
