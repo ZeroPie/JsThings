@@ -307,10 +307,10 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 | undefined        |  "undefined"  |
 | 3.14159          |  "3.14159"    |
 |  0               |  "0"          |
-| -0               |  "0" wtf      |
+| -0               |  "0" //WTF    |
 | []               |   ""          |
-| [1,2,3]          |  "1,2,3" no brackets :(|
-| [null, undefined]|   ","         |
+| [1,2,3]          |  "1,2,3" //no brackets :(|
+| [null, undefined]|   ","  //WTF  |
 | [[[],[],[]],[]]  |   [,,,]       |
 | [,,,,]           |   ',,,' //trailing comma|
 
