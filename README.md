@@ -313,7 +313,6 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 | [null, undefined]|   ","  //WTF  |
 | [[[],[],[]],[]]  |   [,,,]       |
 | [,,,,]           |   ',,,' //trailing comma|
-
 |  {}              |  "[object Object]"   |
 |  {a:2}           |  "[object Object]"   |
 
