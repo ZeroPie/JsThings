@@ -345,3 +345,18 @@ String () doesnt wrap, it just coerces
 
 false as Boolean primitive is falsy
 false as Boolean object is truthy
+
+
+new Array(42) // overloaded => now this is the length
+
+sparse Array => empty array => array.length console: 42
+map => they dont exist, empty/phantom slots
+
+JS doesn't allocate memory, creates a linked list and sets the lenght to 42 
+no perfomance benefit
+
+use the literal
+
+imperative - declarative
+new Object() <=> { a: 1, b: 2}
+
