@@ -330,18 +330,18 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 
 | Value       | Result      |
 | ----------- | ----------- |
-| ""          |   0         | wtf
+| ""          |   0 //WTF   | 
 | "0"         |   0         | 
 | "-0"        |   -0        |
 | " 009 "     |   9         |
 | "3.14159"   |   3.14159   |
 | "0 ."       |   0         |
 | ".0"        |   0         |
-| "."         |   NaN       |  wtf
+| "."         |   NaN //WTF |  
 | false       |   0         |
 | true        |   1         |
-| null        |   0         |  wtf
-| undefined   |   NaN       |  wtf
+| null        |   0 //WTF   |  
+| undefined   |   NaN //WTF |  
 
 
 ## Recommendation
