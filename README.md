@@ -365,4 +365,10 @@ imperative - declarative
 new Object() <=> { a: 1, b: 2}
 ```
 
+Regexp
+```js
+foo  = new RegExp("a*b", "g") // use if it the pattern has to be dynamic
+foo = /a*b/g
+```
+
 
