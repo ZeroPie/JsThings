@@ -326,3 +326,22 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 | true        |   1         |
 | null        |   0         |  wtf
 | undefined   |   NaN       |  wtf
+
+
+## Recommendation
+
+Dont user new String() new Number () 
+They create object
+
+new String () => Dev Console String in italics
+new String () => wrapper object around the primitive String => Object
+
+As function
+String () doesnt wrap, it just coerces
+
+
+0 primitive is truthy
+0 as Obj
+
+false as Boolean primitive is falsy
+false as Boolean object is truthy
