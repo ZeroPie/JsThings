@@ -1,6 +1,12 @@
 # Javascript-Reference
 Just a Reference to look into with the correct Terms that i keep forgetting 
 
+
+WIP:
+1) Todo create index
+2) Split into sections
+
+
 ### Terminology
 1. Object Literal ``const obj = {}``
 1. Array Literal ``const arr = []``
