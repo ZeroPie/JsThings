@@ -355,6 +355,17 @@ baz = +foo
 baz // 123
 ```
 
+## Boxing
+
+Js automatically coerces a primitive to its object wrapper counterpart (in this case Number:)
+That is why we can use .toString()
+```js
+baz = 456;
+foo = baz.toString();
+foo // '456'
+```
+
+
 
 ## Recommendation
 
