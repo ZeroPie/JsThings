@@ -154,10 +154,12 @@ Ability of a Function to 'remember' its lexical scope, even when it is executed 
 
 ## Hoisting
 
-Not truly a thing, it's a way to think about the 2 pass compilation process in JS
-Vars and lexical scopes are parsed
-Values are then assigned
+Not truly a thing: It's actually a way to think about the 2 pass compilation process in JS.
+1) Vars and lexical scopes are parsed
+2) Values are then assigned
 Thats why we can declare a var after already haven given it a value and that stuff works
+
+let and const behave differently
 
 
 ## New Keyword (constructor call)
