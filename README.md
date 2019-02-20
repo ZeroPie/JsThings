@@ -346,6 +346,15 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 | undefined   |   NaN //WTF |  
 
 
+
+## +
+```js
+var foo = '123"
+baz = +foo
+baz // 123
+```
+
+
 ## Recommendation
 
 Dont user new String() new Number () 
