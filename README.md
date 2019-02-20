@@ -355,12 +355,29 @@ isNan('foo') // true WTF => tries to convert it to a number first and then check
 
 
 
+
 ## +
 
 ```js
 var foo = '123'
 baz = +foo
 baz // 123
+```
+
+## * --> boolean
+
+### Boolean()
+
+```js
+var baz = Boolean(foo)
+```
+
+### !! (double negate operator)
+! negate operator
+! coerce to a boolean (toBoolean()) and flips the parity (!negate operator) 
+! flip it back
+```js
+baz = !!foo;
 ```
 
 ## Boxing
