@@ -400,7 +400,7 @@ var now = new Date // works too shrugs*
 
 ``` js
 // indexOf returns a number
-~foo,indexOf('f') //-1 => // Ñ -> -(N+1)
+~foo,indexOf('f') //-1 => // N -> -(N+1)
 ```
 
 ## Boxing
