@@ -364,7 +364,7 @@ baz = +foo
 baz // 123
 ```
 
-## * --> boolean
+## Explicit Boolean Coercion
 
 ### Boolean()
 
@@ -386,6 +386,14 @@ baz = !!foo;
 baz = foo ? true : false
 ```
 
+### ~ Tilde (binary/bitwise negate)
+Boolean Coercion with ~
+`~N -> -(N+1)`
+``` js
+// indexOf returns -1 
+~foo,indexOf('f') 
+```
+
 
 ## Date
 
@@ -396,13 +404,7 @@ Date.now()
 
 var now = new Date // works too shrugs*
 ```
-## ~ Tilde (binary/bitwise negate)
-Boolean Coercion with ~
-`~N -> -(N+1)`
-``` js
-// indexOf returns -1 
-~foo,indexOf('f') 
-```
+
 
 ## Boxing
 
