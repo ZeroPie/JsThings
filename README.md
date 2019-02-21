@@ -387,6 +387,22 @@ baz = foo ? true : false
 ```
 
 
+## Date
+
+```js
+Date.now()
+// var now = +new Date()
+// var foo = 'foo'
+
+var now = new Date // works too shrugs*
+```
+## ~
+
+``` js
+// indexOf returns a number
+~foo,indexOf('f') //-1 => // Ñ -> -(N+1)
+```
+
 ## Boxing
 
 Js automatically coerces a primitive to its object wrapper counterpart (in this case Number:)
