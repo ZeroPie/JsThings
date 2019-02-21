@@ -397,10 +397,11 @@ Date.now()
 var now = new Date // works too shrugs*
 ```
 ## ~ Tilde (binary/bitwise negate)
-~N -> -(N+1)
+`~N -> -(N+1)`
 Boolean Coercion with ~
 ``` js
-~foo,indexOf('f') // indexOf returns -1 
+// indexOf returns -1 
+~foo,indexOf('f') 
 ```
 
 ## Boxing
