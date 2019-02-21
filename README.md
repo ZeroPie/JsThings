@@ -396,7 +396,7 @@ Date.now()
 
 var now = new Date // works too shrugs*
 ```
-## ~
+## ~ Tilde (binary/bitwise negate)
 
 ``` js
 // indexOf returns a number
