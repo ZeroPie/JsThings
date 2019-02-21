@@ -380,6 +380,13 @@ var baz = Boolean(foo)
 baz = !!foo;
 ```
 
+### Ternary Operator
+
+```js
+baz = foo ? true : false
+```
+
+
 ## Boxing
 
 Js automatically coerces a primitive to its object wrapper counterpart (in this case Number:)
@@ -434,5 +441,6 @@ Regexp
 foo  = new RegExp("a*b", "g") // use if it the pattern has to be dynamic
 foo = /a*b/g
 ```
+
 
 
