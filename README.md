@@ -91,6 +91,10 @@ function watify() {
 
 -----------
 
+# Functions
+
+functions without return values implicitly return undefined
+
 ### Function Declaration
 
 ```js
