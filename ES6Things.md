@@ -186,6 +186,8 @@ Localized blocking (only inside the generator, not the entire program)
 
 ### yield (pause)
 
+It's okay not to consume a generator fully, they don't have to finish and will get garbage collected
+
 ```js
 
 function* gen() {
