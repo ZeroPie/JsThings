@@ -201,3 +201,8 @@ it.next() // World
 ```
 
 
+### Consume an iterator
+
+for of loop
+
+
