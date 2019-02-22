@@ -180,7 +180,7 @@ function tralala () {
 
 Syntactic form to declaring a state machine
 
-#yield (pause)
+# yield (pause)
 
 ```js
 ```
