@@ -176,9 +176,11 @@ function tralala () {
 
 ## Generators
 
-'Interruptable' functions
+'Interruptable/pausable' functions
 
 Syntactic form to declaring a state machine
+
+#yield (pause)
 
 ```js
 ```
