@@ -165,11 +165,19 @@ let d;
 
 ## Let
 
-```
+```js
 function tralala () {
     
     { // scope
         let id;
     }
 }
+```
+
+## Generators
+
+'Interruptable' functions 
+Syntactic form to declaring a state machine
+
+```js
 ```
