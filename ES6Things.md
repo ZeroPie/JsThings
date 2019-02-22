@@ -182,6 +182,8 @@ Syntactic form to declaring a state machine
 
 Localized blocking (only inside the generator, not the entire program)
 
+Sync: A way to produce an iterator
+
 
 
 ### yield (pause)
