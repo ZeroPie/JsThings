@@ -176,7 +176,8 @@ function tralala () {
 
 ## Generators
 
-'Interruptable' functions 
+'Interruptable' functions
+
 Syntactic form to declaring a state machine
 
 ```js
