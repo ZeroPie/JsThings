@@ -180,7 +180,24 @@ function tralala () {
 
 Syntactic form to declaring a state machine
 
+Localized blocking (only inside the generator, not the entire program)
+
+
+
 ### yield (pause)
 
 ```js
+
+function* gen() {
+  console.log('Hello')
+  yield // The generator decides when to pause
+  console.log('World')
+}
+
+var it = gen()  // none of the generation runs, it just produces an iterator
+it.next() // Hello
+it.next() // World
+
 ```
+
+
