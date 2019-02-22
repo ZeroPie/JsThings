@@ -93,7 +93,7 @@ function watify() {
 
 # Functions
 
-functions without return values implicitly return undefined
+functions without a return statement implicitly return undefined
 
 ### Function Declaration
 
