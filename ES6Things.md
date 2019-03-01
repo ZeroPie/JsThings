@@ -38,7 +38,7 @@ const { destructured, cool } = this.state
 
 ### Mixed Nested Destructuring Arrays in Objects
 
-```
+```js
 const result = {
   location: 'Köln',
   categories: [
