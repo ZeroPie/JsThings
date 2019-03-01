@@ -59,6 +59,11 @@ getCategoryName(result) // 'eisdielerina'
    
 ```
 
+With Destructuring in Function Params and implicit return
+```js
+const getCategoryName = ({categories: [{name}]}) => name
+```
+
 
 
 ### Rename Properties
