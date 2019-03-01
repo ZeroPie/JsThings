@@ -52,6 +52,7 @@ const result = {
 
 const getCategoryName = result => {
   let { categories: [{name}] } = result
+  return name
 }
 
 getCategoryName(result) // 'eisdielerina'
