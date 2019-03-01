@@ -36,6 +36,31 @@ const { destructured, cool } = this.state
 
 ```
 
+### Mixed Nested Destructuring Arrays in Objects
+
+```
+const result = {
+  location: 'Köln',
+  categories: [
+    {
+      name: 'eisdielerina',
+      adresse: 'bonner str',
+      type: 'gastro'
+    }
+  ]
+}
+
+const getCategoryName = ({
+  categories: [{name}]  
+}) => ({
+  name
+})
+
+getCategoryName(result) // 'eisdielerina'
+   
+```
+
+
 
 ### Rename Properties
 
