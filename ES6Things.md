@@ -50,11 +50,10 @@ const result = {
   ]
 }
 
-const getCategoryName = ({
-  categories: [{name}]  
-}) => ({
-  name
-})
+const getCategoryName = result => {
+  let { categories: [{name}] } = result
+  console.log(name)
+}
 
 getCategoryName(result) // 'eisdielerina'
    
