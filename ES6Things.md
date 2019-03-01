@@ -59,7 +59,7 @@ getCategoryName(result) // 'eisdielerina'
    
 ```
 
-With Destructuring in Function Params and implicit return
+### With Destructuring in Function Signature and Implicit Return
 ```js
 const getCategoryName = ({categories: [{name}]}) => name
 ```
