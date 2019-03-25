@@ -390,6 +390,21 @@ baz = !!foo;
 baz = foo ? true : false
 ```
 
+``` js
+let a = 'a'
+let c = 'c'
+let d = 'c'
+
+const b = () => console.log('b')
+const e = () => console.log('e')
+
+a 
+  ? b() || (c = d)
+  : e()
+
+// "c"
+```
+
 ### ~ Tilde (binary/bitwise negate)
 Boolean Coercion with ~
 `~N -> -(N+1)`
@@ -464,6 +479,7 @@ Regexp
 foo  = new RegExp("a*b", "g") // use if it the pattern has to be dynamic
 foo = /a*b/g
 ```
+
 
 
 
