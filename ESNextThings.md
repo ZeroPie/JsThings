@@ -271,3 +271,11 @@ it.next() // World
 for of loop
 
 
+### Cool Stuff
+
+Remove any duplicates from an array of primitives (Rrder is preserved)
+```
+[... new Set(arr)]
+```
+
+
