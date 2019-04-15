@@ -56,8 +56,13 @@ const getCategoryName = result => {
 }
 
 getCategoryName(result) // 'eisdielerina'
-   
 ```
+
+### With Destructuring in Function Signature and Implicit Return
+```js
+const getCategoryName = ({categories: [{name}]}) => name
+```
+
 
 ### More Convoluted Example
 ```js
@@ -94,10 +99,6 @@ export default Conversation
     const getMessageContent = message => getMessageParts(message).map(parts => getMessagePayLoad(parts).content)
 ```
 
-### With Destructuring in Function Signature and Implicit Return
-```js
-const getCategoryName = ({categories: [{name}]}) => name
-```
 
 
 
