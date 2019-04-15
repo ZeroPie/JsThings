@@ -67,9 +67,6 @@ import ChatMessage from "../../Molecules/ChatMessage/ChatMessage";
 
 export const Conversation = ({ senderId, messages }) => {
 
-    const getMessageParts = ({ parts = [] }) => parts
-    const getMessagePayLoad = ({ payload = {} }) => payload
-    const getMessageContent = message => getMessageParts(message).map(parts => getMessagePayLoad(parts).content)
     const getMessageContent2 = ({ parts : [{payload : {content}} = {}] = []}) => content
     const isReceiver = id => senderId === id ? 'left' : 'right'
 
@@ -89,6 +86,12 @@ export const Conversation = ({ senderId, messages }) => {
 
 export default Conversation
 
+```
+
+```
+    const getMessageParts = ({ parts = [] }) => parts
+    const getMessagePayLoad = ({ payload = {} }) => payload
+    const getMessageContent = message => getMessageParts(message).map(parts => getMessagePayLoad(parts).content)
 ```
 
 ### With Destructuring in Function Signature and Implicit Return
