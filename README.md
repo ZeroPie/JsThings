@@ -1,4 +1,4 @@
-# Javascript-Reference
+# JsThings
 Just a Reference to look into with the correct Terms that i keep forgetting 
 
 
